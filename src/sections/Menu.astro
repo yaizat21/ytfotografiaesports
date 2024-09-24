@@ -1,0 +1,36 @@
+<!-- Menu Navigation -->
+<nav class="fixed top-0 left-0 w-full bg-white shadow-md" id="mainNav">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <a class="text-lg font-bold" href="#page-top">Start Bootstrap</a>
+      <!-- Checkbox para manejar el toggle del menú -->
+      <input type="checkbox" id="menu-toggle" class="hidden">
+      <label for="menu-toggle" class="text-gray-500 lg:hidden block cursor-pointer">
+        Menu
+        <i class="fas fa-bars"></i>
+      </label>
+      <!-- Menú -->
+      <div class="hidden lg:flex lg:items-center" id="navbarResponsive">
+        <ul class="flex flex-col lg:flex-row lg:space-x-6">
+          <li class="nav-item"><a class="text-gray-700 hover:text-gray-900" href="#about">About</a></li>
+          <li class="nav-item"><a class="text-gray-700 hover:text-gray-900" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="text-gray-700 hover:text-gray-900" href="#signup">Contact</a></li>
+        </ul>
+      </div>
+      <!-- Estilo del menú usando checkbox para mostrar y ocultar -->
+      <div class="absolute top-full left-0 w-full bg-white shadow-md lg:hidden" id="mobile-menu">
+        <ul class="flex flex-col items-center">
+          <li class="nav-item"><a class="block py-2 text-gray-700 hover:text-gray-900" href="#about">About</a></li>
+          <li class="nav-item"><a class="block py-2 text-gray-700 hover:text-gray-900" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="block py-2 text-gray-700 hover:text-gray-900" href="#signup">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Tailwind CSS para el menú colapsable -->
+  <style>
+    #menu-toggle:checked ~ #navbarResponsive {
+      display: flex;
+    }
+  </style>
+  

@@ -1,0 +1,242 @@
+---
+import Logo from "../components/Logo.astro"
+import Layout from "../layouts/Layout.astro"
+import Footer from "../components/Footer.astro"
+import YellowBackground from "@/components/YellowBackground.astro"
+
+---
+
+<Layout title="YT Fotografia Esports">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <YellowBackground>
+  <div class="w-screen min-h-1/2 pb-10 text-black font-sans relative">
+    <div class="container mx-auto">
+      <header class="mx-auto px-4 py-6 flex justify-between items-center">
+        <div class="flex items-center space-x-4">
+          <Logo />
+          <div>
+            <h1 class="font-bold text-3xl">YT Fotografia Esports</h1>
+            <p class="text-sm">Fotógrafa deportiva</p>
+          </div>
+        </div>
+        <nav class="hidden md:flex space-x-6">
+          <ul class="flex flex-col items-center overflow-x-auto overflow-y-hidden md:overflow-hidden md:flex-row">
+  
+			<li class="flex justify-center w-full first:mt-5 md:first:mt-0 md:block md:w-auto"><a href="/#Portafolio" 
+	class="flex items-center justify-center w-full gap-1 px-5 py-4 text-xl duration-300 md:w-auto md:py-2 md:text-base hover:scale-110">
+	<ion-icon name="apps-outline"></ion-icon> <p>Portafolio</p>
+		
+		<li class="flex justify-center w-full first:mt-5 md:first:mt-0 md:block md:w-auto"><a href="/#SobreMi" 
+			class="flex items-center justify-center w-full gap-1 px-5 py-4 text-xl duration-300 md:w-auto md:py-2 md:text-base hover:scale-110">
+			<ion-icon name="person-outline"></ion-icon> <p>Sobre Mi</p>
+ 
+		<li class="flex justify-center w-full first:mt-5 md:first:mt-0 md:block md:w-auto"><a href="/#Partidos" 
+			class="flex items-center justify-center w-full gap-1 px-5 py-4 text-xl duration-300 md:w-auto md:py-2 md:text-base hover:scale-110">
+			<ion-icon name="football-outline"></ion-icon> <p>Partidos</p>
+        
+      </header>
+    
+     <main class="container mx-auto px-4 py-48 text-center">   
+       <h2 class="text-6xl md:text-7xl lg:text-9xl font-bold mb-2">Fotógrafa Deportiva</h2>
+        <div class="space-y-4 mb-12">
+          <p class="text-black text-xl font-bold inline-block px-4 py-2">Especializada en fútbol.</p>
+        </div> 
+         <div class="flex flex-col gap-6">
+          <div class="flex gap-6 justify-center items-center flex-col md:flex-row">
+            
+            <a href="https://www.flickr.com/photos/194569756@N04/albums" target="_blank" rel="noopener" class="bg-white border-4 border-black text-black font-bold text-xl px-8 py-3 rounded-full hover:bg-opacity-90 duration-300 hover:scale-110 transition uppercase inline-block">
+                Portafolio
+            </a>
+            
+            <a href="https://www.flickr.com/photos/194569756@N04/albums" target="_blank" rel="noopener" class="bg-purple-200 border-4 border-black text-black font-bold text-xl px-8 py-3 rounded-full hover:bg-opacity-90 duration-300 hover:scale-110 transition uppercase inline-block">
+              Galería completa
+            </a>
+          </div>
+      </div>  
+      </main> 
+
+
+      <footer class="container mx-auto px-4 py-8 flex justify-between items-center gap-x-2">
+        <div class="flex flex-col">
+          <!-- <span class="text-xl md:text-2xl opacity-80">Ubicación actual</span>
+          <span class="text-2xl md:text-4xl font-bold opacity-90">Alicante</span> -->
+        </div>
+        <div class="flex flex-col text-right">
+          <!-- <span class="text-l md:text-2xl opacity-80">¿Cómo puedo ayudar?</span>
+          <br><a href="https://www.flickr.com/photos/194569756@N04/albums" target="_blank" rel="noopener" class="bg-blue-800 border-4 border-black text-white font-bold text-3xl px-14 py-4 rounded-full hover:bg-opacity-90 duration-300 hover:scale-110 transition uppercase inline-block">
+           Paypal -->
+          </a>
+        </div>
+      </footer>
+    </div>
+
+  </div>
+</YellowBackground>
+
+  <div class="w-screen py-10 pb-48 text-white font-sans bg-black">
+    <div class="container mx-auto">
+      <section id="SobreMi" class="flex flex-col flex-wrap items-center justify-center px-4 pt-32">
+        <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <img class="w-full rounded" src="/SobreMi.webp" alt="Sobre Mi"> 
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Sobre Mi</h2>
+                <p class="mb-6 font-light text-gray-50 md:text-lg dark:text-gray-200">¡Hola! Soy Yaiza, fotógrafa deportiva con amplia experiencia en capturar la emoción y la acción de los eventos de fútbol. Mi pasión por el deporte y la fotografía se refleja en cada imagen, buscando siempre congelar esos momentos únicos que cuentan historias dentro y fuera del campo.
+                </p>
+                <a href="mailto:yaizatomasfotografia@gmail.com" target="_blank" class="bg-white border-4 border-black text-black font-bold text-xl px-8 py-3 rounded-full hover:bg-opacity-90 duration-300 hover:scale-110 transition uppercase inline-block">
+                  ¡Contacta!
+                </a>
+            </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="w-screen py-10 pb-48 text-white font-sans bg-blue-100">
+    <div class="container mx-auto">
+      <section id="Portafolio" class="flex flex-col flex-wrap items-center justify-center px-4 pt-32">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+          <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
+            <h2 class="text-4xl font-bold text-center text-black md:text-6xl">Portafolio</h2>
+            <p class="max-w-xl text-2xl text-black/80 text-center [text-wrap:balance] mt-4">¡Aquí una selección de mi fotografías favoritas! <ion-icon name="happy-outline"></ion-icon>  </p>
+          </div> 
+          <div class="grid gap-6 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+              <article class="bg-slate-950 text-white rounded-sm ">
+                  <a href="https://www.instagram.com/p/C-c6ZqSNK9L/?igsh=NnB1dGhiYmV3Nng3">
+                      <img class="p-4 w-full rounded-lg" src="/CR7.webp" alt="Cristiano Ronaldo">
+                  </a>
+                  <div class="px-5 pb-5">
+                      <h3 class="text-2xl font-bold tracking-tight text-white">
+                          <a href="https://www.instagram.com/p/C-c6ZqSNK9L/?igsh=NnB1dGhiYmV3Nng3" target="_blank">Cristiano Ronaldo</a>
+                      </h3>
+                      <span class="text-yellow-300">Jugador del @Al-Nassar</span>
+                      <p class="mt-3 mb-4 font-light text-white/80">Partido del Al-Nassar en Almería. Cristiano Ronaldo no necesita presentación. SIUU</p>
+                      <ul class="flex space-x-4 sm:mt-0 items-center">
+                          
+                          <li>
+                              <a href="https://www.instagram.com/p/C-c6ZqSNK9L/?igsh=NnB1dGhiYmV3Nng3" class="text-gray-500 hover:hover:text-white">
+                                <ion-icon name="logo-instagram" class="w-8 h-8" ></ion-icon> 
+                              </a>
+                          </li>
+                          <li>
+                            <a href="https://www.facebook.com/ytfotografiaesports" class="text-gray-500 hover:hover:text-white">
+                              <ion-icon name="logo-facebook" class="w-8 h-8" ></ion-icon> 
+                            </a>
+                        </li>
+                          
+                      </ul>
+                  </div>
+                </article>
+                <article class="bg-slate-950 text-white rounded-sm ">
+                  <a href="https://www.instagram.com/p/C781kKFN4a0/?igsh=MTUyNTAxODh0a2oxNQ==">
+                      <img class="p-4 w-full rounded-lg" src="/JAPAN.webp" alt="JAPANWMNT">
+                  </a>
+                  <div class="px-5 pb-5">
+                      <h3 class="text-2xl font-bold tracking-tight text-white">
+                        <a href="https://www.instagram.com/p/C781kKFN4a0/?igsh=MTUyNTAxODh0a2oxNQ==" target="_blank">Moeka Minami VS Grace Jale</a>
+                      </h3>
+                      <span class="text-yellow-300">Japón vs. Nueva Zelanda</span>
+                      <p class="mt-3 mb-4 font-light text-white/80">Partido Japón vs. Nueva Zelanda Amistoso Internacional Femenino resultado final 4-1.</p>
+                      <ul class="flex space-x-4 sm:mt-0 items-center">
+                          
+                        <li>
+                          <a href="https://www.instagram.com/p/C781kKFN4a0/?igsh=MTUyNTAxODh0a2oxNQ==" class="text-gray-500 hover:hover:text-white">
+                            <ion-icon name="logo-instagram" class="w-8 h-8" ></ion-icon> 
+                          </a>
+                      </li>
+                      <li>
+                        <a href="https://www.facebook.com/ytfotografiaesports" class="text-gray-500 hover:hover:text-white">
+                          <ion-icon name="logo-facebook" class="w-8 h-8" ></ion-icon> 
+                        </a>
+                    </li>
+                          </ul>
+                      </div>
+                </article>
+
+                <article class="bg-slate-950 text-white rounded-sm ">
+                  <a href="https://www.instagram.com/ytfotografiaesports/">
+                    <img class="p-4 w-full rounded-lg" src="/LELE.webp" alt="Lele Cabrera">
+                </a>
+                  <div class="px-5 pb-5">
+                      <h3 class="text-2xl font-bold tracking-tight text-white">
+                          <a href="https://www.instagram.com/ytfotografiaesports/">Lele Cabrera</a>
+                      </h3>
+                      <span class="text-yellow-300">Jugador del @RcdEspanyol</span>
+                      <p class="mt-3 mb-4 font-light text-white/80">Fotografía al central del club perico en el partido amistoso Rcd Espanyol - Torino en Pinatar Arena</p>
+                      <ul class="flex space-x-4 sm:mt-0 items-center">
+                          <li>
+                          <a href="https://www.instagram.com/ytfotografiaesports/" class="text-gray-500 hover:hover:text-white">
+                            <ion-icon name="logo-instagram" class="w-8 h-8" ></ion-icon> 
+                          </a>
+                      </li>
+                      <li>
+                        <a href="https://www.facebook.com/ytfotografiaesports" class="text-gray-500 hover:hover:text-white">
+                          <ion-icon name="logo-facebook" class="w-8 h-8" ></ion-icon> 
+                        </a>
+                    </li>
+                          
+                      </ul>
+                  </div>
+                </article>
+            </div>
+          </div>
+          <a href="https://www.flickr.com/photos/194569756@N04/albums" target="_blank" rel="noopener" class="bg-purple-300 border-4 border-black text-black font-bold text-xl px-8 py-3 rounded-full hover:bg-opacity-90 duration-300 hover:scale-110 transition uppercase inline-block">
+            Portafolio completo
+          </a>
+      </section>
+    </div>
+  </div>
+
+  
+  <div class="w-screen min-h-screen py-10 text-white font-sans bg-slate-700">
+    
+    <div class="container mx-auto">
+      <section id="Partidos" class="flex flex-col flex-wrap items-center justify-center px-4 pt-32">
+        <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <img class="w-full rounded" src="/athenea.webp" alt="Athenea"> 
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Real Madrid - Ud Tenerife</h2>
+                <p class="mb-6 font-light text-gray-50 md:text-lg dark:text-gray-200">Partido del 18 de febrero, el conjunto blanco se impuso con un trabajado 2-1 en un duelo que mantuvo a los aficionados al borde de sus asientos.</p>
+                <a href="https://www.flickr.com/photos/194569756@N04/albums/72177720315687982/" target="_blank" rel="noreferrer nofollow" class="inline-flex items-center bg-orange-200 text-black hover:scale-105 transition focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                    Ver fotografías
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+        </div>
+      </section>
+      <section class="">
+        <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">CD Santa Pola fs - Ud La Hoya
+                </h2>
+                <p class="mb-6 font-light text-gray-50 md:text-lg dark:text-gray-200 text-pretty">En solo dos años, el CD Santa Pola FS ha logrado la hazaña de ascender dos categorías, pasando de 1ª Regional, donde se coronaron campeones de liga, a la Tercera División.
+
+                  Como uno de nuestros principales clubes, hemos tenido el privilegio de capturar cada momento de este increíble viaje a través de nuestra fotografía.</p>
+                <a href="https://www.flickr.com/photos/194569756@N04/albums/72177720316207327/" target="_blank" rel="noreferrer nofollow" class="inline-flex items-center bg-orange-200 text-black hover:scale-105 transition focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                  Ver fotografías 
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+            <img class="w-full rounded" src="cdsanta pola.webp" alt="CD Santa Pola fs">
+        </div>
+      </section>
+      <section class="">
+        <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
+            <img class="w-full rounded" src="/rcdef.webp" alt="Rcd Espanyol femenino">
+            <div class="mt-4 md:mt-0">
+                <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-white">Alhama - RCD Espanyol</h2>
+                <p class="mb-6 font-light text-gray-50 md:text-lg dark:text-gray-200">El 17 de marzo, el RCD Espanyol Femenino se llevó una valiosa victoria por la mínima en su visita al Alhama. En el encuentro las visitantes lograron imponerse 0-1, sumando tres puntos cruciales en un partido donde la solidez defensiva y la efectividad en el ataque marcaron la diferencia.</p>
+                <a href="https://www.flickr.com/photos/194569756@N04/albums/72177720315691285/" target="_blank" rel="noreferrer nofollow" class="inline-flex items-center bg-orange-200 text-black hover:scale-105 transition focus:ring-4 focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:focus:ring-primary-900">
+                  Ver fotografías 
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+            </div>
+        </div>
+      </section>
+    </div>
+  </div>
+  <div class="w-screen py-15 text-white font-sans bg-black">
+    <Footer />
+  </div>
+</Layout>
